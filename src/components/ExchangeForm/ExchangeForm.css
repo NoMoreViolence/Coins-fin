@@ -1,0 +1,193 @@
+/* 핸드폰 */
+@media all and (max-width: 425px) {
+  /* 전체 폼 */
+  .exchange-form {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  /* 코인 교환 종목 */
+  .exchange-event {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-form {
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  /* 가격 표시 요소 */
+  .exchange-price-view {
+    display: flex;
+    width: calc(100% - 4%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  /* High, Current, Low 표시 */
+  .exchange-price-view-info {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 30%;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-view-price {
+    text-overflow: clip;
+    text-align: center;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 50%;
+  }
+  /* 단위 */
+  .exchange-price-view-unit {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 20%;
+  }
+}
+/* 태블릿 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+  /* 전체 폼 */
+  .exchange-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  /* 코인 교환 종목 */
+  .exchange-event {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    width: 40%;
+    text-align: center;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-form {
+    font-size: 1.2em;
+    width: 60%;
+  }
+  /* 가격 표시 요소 */
+  .exchange-price-view {
+    display: flex;
+    width: calc(100% - 8%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  /* High, Current, Low 표시 */
+  .exchange-price-view-info {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 30%;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-view-price {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 40%;
+  }
+  /* 단위 */
+  .exchange-price-view-unit {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 30%;
+  }
+}
+/* 랩탑 */
+@media all and (min-width: 769px) {
+  /* 전체 폼 */
+  .exchange-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  /* 코인 교환 종목 */
+  .exchange-event {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    width: 30%;
+    text-align: center;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-form {
+    font-size: 1.2em;
+    width: 70%;
+  }
+  /* 가격 표시 요소 */
+  .exchange-price-view {
+    display: flex;
+    width: calc(100% - 8%);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  /* High, Current, Low 표시 */
+  .exchange-price-view-info {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 30%;
+  }
+  /* 가격 표시 부분 */
+  .exchange-price-view-price {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 40%;
+  }
+  /* 단위 */
+  .exchange-price-view-unit {
+    text-overflow: clip;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    width: 30%;
+  }
+}

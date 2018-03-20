@@ -1,0 +1,97 @@
+/* 핸드폰 */
+@media all and (max-width: 425px) {
+  .all-coinlist-form {
+    font-size: 0.9em;
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .all-coin-symbol {
+    width: calc(30% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-coin-name {
+    width: calc(50% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-details-button {
+    width: calc(20% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .all-details-button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+}
+/* 태블릿 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+  .all-coinlist-form {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .all-coin-symbol {
+    font-size: 1.5em;
+    width: calc(30% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-coin-name {
+    font-size: 1.5em;
+    width: calc(50% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-details-button {
+    font-size: 1em;
+    width: calc(20% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .all-details-button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+}
+/* 랩탑 */
+@media all and (min-width: 769px) {
+  .all-coinlist-form {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .all-coin-symbol {
+    font-size: 1.5em;
+    width: calc(30% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-coin-name {
+    font-size: 1.5em;
+    width: calc(50% - 8%);
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .all-details-button {
+    font-size: 1em;
+    width: calc(20% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .all-details-button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+}

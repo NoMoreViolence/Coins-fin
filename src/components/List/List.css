@@ -1,0 +1,93 @@
+/* 핸드폰 */
+@media all and (max-width: 425px) {
+  .search-container {
+    width: 40%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+  }
+
+  input {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .all-coin-list {
+    width: 85%;
+    height: 500px;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+  }
+}
+/* 태블릿 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+  .search-container {
+    width: 60%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+  }
+
+  input {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .all-coin-list {
+    width: 85%;
+    height: 720px;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+  }
+}
+/* 랩탑 */
+@media all and (min-width: 769px) {
+  .search-container {
+    width: 40%;
+    margin-top: 5.5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3.5%;
+  }
+
+  input {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .all-coin-list {
+    width: 60%;
+    height: 650px;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+  }
+}

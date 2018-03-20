@@ -1,0 +1,165 @@
+/* 핸드폰 */
+@media all and (max-width: 425px) {
+  /* 컴포넌트 전체 div */
+  .selected {
+    width: 80%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 메인 페이지 돌아가기 버튼 */
+  .selected-homelink-button {
+    font-size: 1em;
+    width: calc(50% - 2%);
+    margin-right: 1%;
+    margin-left: 1%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .selected-homelink-button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .selected-symbol {
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래 가능 마켓 안내 표시 */
+  .selected-guidance {
+    text-align: center;
+    width: 100%;
+  }
+  .selected-guidance p {
+    font-size: 2em;
+    width: calc(100% - 10%);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* 거래 가능 마켓'들' */
+  .selected-market {
+    font-size: 1.4em;
+    overflow: auto;
+    width: calc(100% - 10%);
+    height: 360px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 1px solid black;
+  }
+}
+/* 태블릿 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+  /* 컴포넌트 전체 div */
+  .selected {
+    width: 60%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 메인 페이지 돌아가기 버튼 */
+  .selected-homelink-button {
+    font-size: 1em;
+    width: calc(40% - 4%);
+    outline: inherit;
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .selected-homelink-button:active {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .selected-symbol {
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래 가능 마켓 안내 표시 */
+  .selected-guidance {
+    text-align: center;
+    width: 100%;
+  }
+  .selected-guidance p {
+    font-size: 2em;
+    width: calc(100% - 10%);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* 거래 가능 마켓'들' */
+  .selected-market {
+    font-size: 1.4em;
+    overflow: auto;
+    width: calc(100% - 10%);
+    height: 500px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 1px solid black;
+  }
+}
+/* 랩탑 */
+@media all and (min-width: 769px) {
+  /* 컴포넌트 전체 div */
+  .selected {
+    width: 40%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 메인 페이지 돌아가기 버튼 */
+  .selected-homelink-button {
+    font-size: 1em;
+    width: calc(25% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 0;
+    outline: 0;
+  }
+  .selected-homelink-button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .selected-symbol {
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래 가능 마켓 안내 표시 */
+  .selected-guidance {
+    text-align: center;
+    width: 100%;
+  }
+  .selected-guidance p {
+    font-size: 2em;
+    width: calc(100% - 10%);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* 거래 가능 마켓'들' */
+  .selected-market {
+    font-size: 1.4em;
+    overflow: auto;
+    width: calc(100% - 10%);
+    height: 500px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 1px solid black;
+  }
+}

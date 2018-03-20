@@ -1,0 +1,199 @@
+/* 핸드폰 */
+@media all and (max-width: 425px) {
+  /* 전체 div 최상층 */
+  .exchange-container {
+    width: 95%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 버튼 두개 설정 */
+  .exchange-buttons button {
+    font-size: 1em;
+    width: calc(25% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .exchange-buttons button:active {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .exchange-initial {
+    width: 30%;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 코인 이니셜 버튼화 */
+  .exchange-initial button {
+    font-size: 3em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .exchange-initial button:active {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 마켓 이름 */
+  .exchange-market-name {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래소 별 코인 가격 정보 불러오는 전체 div */
+  .exchange-view {
+    width: calc(100% - 8%);
+    height: 375px;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border: 1px solid black;
+    overflow: auto;
+  }
+}
+/* 태블릿 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+  /* 전체 div 최상층 */
+  .exchange-container {
+    width: 100%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 버튼 두개 설정 */
+  .exchange-buttons button {
+    font-size: 1em;
+    width: calc(25% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .exchange-buttons button:active {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .exchange-initial {
+    width: 30%;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 코인 이니셜 버튼화 */
+  .exchange-initial button {
+    font-size: 3em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .exchange-initial button:active {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 마켓 이름 */
+  .exchange-market-name {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래소 별 코인 가격 정보 불러오는 전체 div */
+  .exchange-view {
+    width: calc(100% - 8%);
+    height: 700px;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border: 1px solid black;
+    overflow: auto;
+  }
+}
+/* 랩탑 */
+@media all and (min-width: 769px) {
+  /* 전체 div 최상층 */
+  .exchange-container {
+    width: 60%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 버튼 두개 설정 */
+  .exchange-buttons button {
+    font-size: 1em;
+    width: calc(25% - 4%);
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 0;
+    outline: 0;
+  }
+  .exchange-buttons button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 코인 이니셜 */
+  .exchange-initial {
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 코인 이니셜 버튼화 */
+  .exchange-initial button {
+    font-size: 4.5em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 20%;
+    border: 0;
+    outline: 0;
+  }
+  .exchange-initial button:hover {
+    cursor: pointer;
+    color: burlywood;
+  }
+  /* 마켓 이름 */
+  .exchange-market-name {
+    font-size: 3em;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* 거래소 별 코인 가격 정보 불러오는 전체 div */
+  .exchange-view {
+    width: calc(100% - 8%);
+    height: 500px;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    border: 1px solid black;
+    overflow: auto;
+  }
+}

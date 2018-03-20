@@ -13,10 +13,10 @@ const axios = require('axios');
 const port = 3000;
 
 // 디폴트로 리액트 폴더 때려박아버림
-app.use(express.static(path.join(__dirname, '../build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '../build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 // 모든 코인

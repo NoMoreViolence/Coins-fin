@@ -22,7 +22,7 @@
     margin-left: 2%;
     outline: none;
     border: none;
-    background-color: white;
+    background-color: transparent;
   }
   .all-details-button:hover {
     cursor: pointer;
@@ -55,7 +55,7 @@
     margin-left: 2%;
     outline: none;
     border: none;
-    background-color: white;
+    background-color: transparent;
   }
   .all-details-button:hover {
     cursor: pointer;
@@ -88,7 +88,7 @@
     margin-left: 2%;
     outline: none;
     border: none;
-    background-color: white;
+    background-color: transparent;
   }
   .all-details-button:hover {
     cursor: pointer;

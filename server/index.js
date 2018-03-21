@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
 });
 
 // 모든 코인
-app.get('/api', function(req, res) {
+app.get('/api', (req, res) => {
   let coins = [];
 
   let data = axios
@@ -39,7 +39,7 @@ app.get('/api', function(req, res) {
 });
 
 // 특정 코인 거래소
-app.get('/api/:CoinName', function(req, res) {
+app.get('/api/:CoinName', (req, res) => {
   let coins = [];
 
   let data = axios
@@ -58,7 +58,7 @@ app.get('/api/:CoinName', function(req, res) {
 });
 
 // 특정 거래소의 특정 코인 시세
-app.get('/api/:CoinName/:Market', function(req, res) {
+app.get('/api/:CoinName/:Market', (req, res) => {
   let coins = [];
 
   let data = axios
